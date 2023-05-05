@@ -32,7 +32,7 @@ setup(name='hla-genotyper',
         "Topic :: Scientific/Engineering :: Bio-Informatics",],
       install_requires=['numpy',
                         'pysam',
-                        'biopython',
+                        'biopython==1.76',
                        ],
       license='MIT',
       zip_safe=False)
