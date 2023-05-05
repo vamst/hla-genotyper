@@ -30,7 +30,7 @@ setup(name='hla-genotyper',
       classifiers=[
         "Development Status :: 4 - Beta",
         "Topic :: Scientific/Engineering :: Bio-Informatics",],
-      install_requires=['numpy',
+      install_requires=['numpy==1.6',
                         'pysam',
                         'biopython==1.76',
                        ],
